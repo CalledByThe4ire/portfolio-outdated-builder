@@ -1,9 +1,0 @@
-mixin skills
-	header( elem="header", class="wow fadeIn" )
-		| Ключевые навыки
-	ul( block="list" )
-		each item in site.data.skills
-			li( elem="item", class="wow fadeIn", data-wow-duration=duration, data-wow-delay=( delay += stagger ) + "s")
-				div( elem="title" ) !{item.title}
-	div( elem="description" )
-		| отличное знание вышеперечисленных технологий, отслеживание изменений в&nbsp;спецификациях, использование различных библиотек и&nbsp;фреймворков

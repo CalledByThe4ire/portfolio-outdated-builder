@@ -1,0 +1,28 @@
+extends _layouts/base
+
+block title
+	| About Me
+block content
+	each item in site.data.panes
+		case item.type
+			when "first"
+				div( block="pane", mod=item.title, id="pane--" + item.title )
+					div( elem="container" )
+						+hello
+						a( class="wow bounceInUp", elem="next", href="#pane--" + item.next,
+						data-wow-delay="3s") NEXT
+
+			when "last"
+				div( block="pane", mod=item.title, id="pane--" + item.title )
+					div( elem="container" )
+						a( elem="prev", href="#pane--" + item.prev ) PREV
+						+contacts
+
+			default
+				div( block="pane", mod=item.title, id="pane--" + item.title )
+					div( elem="container" )
+						a( elem="prev", href="#pane--" + item.prev ) PREV
+						+#{item.title}
+						a( class="wow bounceInUp", elem="next", href="#pane--" + item.next,
+						data-wow-delay=(
+							delay -= stagger ) + "s" ) NEXT

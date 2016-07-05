@@ -1,0 +1,9 @@
+.pane
+	&--projects
+		& ^[0]__container // .pane__container
+			> .list
+				& ^[3..3]__item // .list__item
+							+above($screen-lg)
+								lost-column 1/3
+				& ^[3..3]__link // .list__link
+					font-size 20 * $px

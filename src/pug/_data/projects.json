@@ -1,0 +1,23 @@
+[
+  {
+    "type": "inner",
+    "title": "Презентация",
+    "lead": "которую вы сейчас смотрите",
+    "text": "Сверстал проект на&nbsp;препроцессорах jade и&nbsp;stylus, в&nbsp;соответствии с&nbsp;методологией БЭМ. Анимацию реализовал с&nbsp;помощью библиотек animate.css и wow.js. В&nbsp;качестве системы сборки использовал gulp.",
+    "repoLink": "https://github.com/CalledByThe4ire/AboutMe"
+  },
+  {
+    "title": "Pink",
+    "lead": "Веб-сайт",
+    "text": "В качестве препроцессоров использовал jade и&nbsp;stylus, методологию именования классов&nbsp;&ndash; БЭМ.<br>Макет сделан максимально адаптивным и выглядит по-разному для&nbsp;мобильной, планшетной и&nbsp;десктопной версии. Раскладку всех компонентов страницы реализовал на&nbsp;flexbox, в&nbsp;качестве сеточной системы выбрал <a class='list__link' href='https://github.com/peterramsing/lost' target='_blank'>lost</a>.<br>Для каждого размера и&nbsp;разрешения экрана подготовил свой комплект изображений; всю&nbsp;декоративную графика собрал в&nbsp;спрайты, которые в&nbsp;свою очередь разделил на&nbsp;векторные и&nbsp;растровые с&nbsp;помощью соответствующих npm-пакетов.<br>В&nbsp;качестве системы сборки использовал gulp.<br>Проект является дипломной работой <a class='list__link' href='https://htmlacademy.ru/intensive/adaptive' target='_blank'>продвинутого интенсива htmlacademy</a>, по&nbsp;итогам успешной защиты ( (100% выполненных заданий) ) получил <a class='list__link' href='../_projects/pink/sertificate.jpg' target='_blank'>сертификат</a>.",
+    "siteLink": "_projects/pink/",
+    "repoLink": "https://github.com/CalledByThe4ire/Pink"
+  },
+  {
+    "title": "Код и&nbsp;Магия",
+    "lead": "Приложение",
+    "text": "В&nbsp;рамках проекта я решил следующие задачи:<br>–&nbsp;написал функцию для&nbsp;вывода и&nbsp;отрисовки сообщений для&nbsp;игры посредством HTML5 Canvas API;<br>–&nbsp;написал валидацию формы отправки отзыва, с&nbsp;сохранением имени пользователя и&nbsp;оценки в&nbsp;cookies;<br>–&nbsp;написал функцию, реализующую AJAX-запрос к&nbsp;серверу для&nbsp;получения данных;<br>–&nbsp;на&nbsp;основе полученных данных написал модуль, генерирующий HTML-код списка отзывов на&nbsp;основе подготовленного шаблона и&nbsp;добавляющий этот код на&nbsp;страницу;<br>–&nbsp;для&nbsp;списка отзывов написал фильтрацию с&nbsp;постраничным выводом, последний примененный фильтр сохраняется в&nbsp;localStorage;<br>–&nbsp;написал функцию-конструктор для&nbsp;создания объекта галереи, отвечающего за&nbsp;показ фотографий, с&nbsp;использованием объекта для&nbsp;работы с&nbsp;адресной строкой;<br>–&nbsp;в&nbsp;блоке с&nbsp;игрой реализовал эффект параллакса.<br>Проект является дипломной работой <a class='list__link' href='https://htmlacademy.ru/intensive/javascript' target='_blank'>интенсива по&nbsp;javascript</a> от&nbsp;<a class='list__link' href='https://htmlacademy.ru/' target='_blank'>htmlacademy</a>:<br>весь код написан на&nbsp;чистом&nbsp;js, без&nbsp;использования вспомогательных библиотек;<br>помимо синтаксических особенностей языка, на&nbsp;интенсиве рассматривались такие темы, как использование модульного подхода в&nbsp;разработке, введение в&nbsp;компонентный подход (разделение поведения и&nbsp;состояния DOM-компонент, работа с&nbsp;типизированными объектами (классами) ), объектно-ориентированное программирование.<br>По итогам успешной защиты проекта (100% выполненных заданий) получил <a class='list__link' href='_projects/CodeAndMagick/sertificate.jpg' target='_blank'>сертификат</a>.",
+    "siteLink": "#",
+    "repoLink": "https://github.com/CalledByThe4ire/17243-code-and-magick"
+  }
+]

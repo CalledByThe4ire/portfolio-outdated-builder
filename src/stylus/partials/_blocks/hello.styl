@@ -1,0 +1,60 @@
+.pane
+	&--hello
+
+		& ^[0]__title // .pane__title
+			&--greetings
+				display inline-block
+				margin-bottom 40 * $px
+				font-family $headings-font-family
+				font-size 85 * $px
+				line-height 0.8
+				color $color-secondary
+				text-shadow 6 * $px 6 * $px 0 $gray-base, -1 * $px -1 * $px 0 $gray-base, 1 * $px -1 * $px 0 $gray-base, -1 * $px 1 * $px 0 $gray-base, 1 * $px 1 * $px 0 $gray-base
+
+				+above($screen-xs)
+					margin-bottom 56 * $px
+					font-size 115 * $px
+					background-color #000
+
+				+above($screen-sm)
+					margin-bottom 128 * $px
+					font-size 140 * $px
+					text-shadow 8 * $px 8 * $px 0 $gray-base, -2 * $px -2 * $px 0 $gray-base, 2 * $px -2 * $px 0 $gray-base, -2 * $px 2 * $px 0 $gray-base, 2 * $px 2 * $px 0 $gray-base
+
+				+above($screen-sm)
+					margin-bottom 96 * $px
+					font-size 190 * $px
+
+				+above($screen-lg)
+					margin-bottom 136 * $px
+					font-size 255 * $px
+
+			&--full-name
+				margin-left 48 * $px
+				margin-right 48 * $px
+				margin-bottom 10 * $px
+				font-size 28 * $px
+				line-height 0.8
+
+				+above($screen-xs)
+					font-size 36 * $px
+
+				+above($screen-sm)
+					margin-bottom 24 * $px
+					font-size 56 * $px
+
+				+above($screen-lg)
+					margin-bottom 32 * $px
+					font-size 80 * $px
+
+			&--description
+				font-size 20 * $px
+
+				+above($screen-xs)
+					font-size 24 * $px
+
+				+above($screen-sm)
+					font-size 32 * $px
+
+				+above($screen-lg)
+					font-size 50 * $px

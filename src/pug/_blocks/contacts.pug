@@ -1,0 +1,8 @@
+mixin contacts
+	header( elem="header", class="wow fadeIn" )
+		| Свяжитесь со&nbsp;мной
+	ul( block="list" )
+		each item in site.data.contacts
+			li( elem="item", class="wow fadeIn", data-wow-duration=duration, data-wow-delay=( delay += stagger ) + "s")
+				div( elem="title" )
+					a( elem="link", href=item.link ) !{item.title}

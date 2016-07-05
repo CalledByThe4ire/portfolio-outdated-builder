@@ -1,0 +1,16 @@
+[
+  {
+    "type": "inner",
+    "title": "Презентация",
+    "lead": "которую вы сейчас смотрите",
+    "text": "Проект сверстан на&nbsp;препроцессорах jade и&nbsp;stylus, в&nbsp;соответствии с&nbsp;методологией БЭМ. Анимация реализована с&nbsp;помощью библиотек animate.css и wow.js. В&nbsp;качестве системы сборки использован gulp.",
+    "repoLink": "https://github.com/CalledByThe4ire/AboutMe"
+  },
+  {
+    "title": "Pink",
+    "lead": "Веб-сайт",
+    "text": "В качестве препроцессоров использованы jade и&nbsp;stylus, методология именования классов&nbsp;&ndash; БЭМ.<br>Макет сделан максимально адаптивным и выглядит по-разному для&nbsp;мобильной, планшетной и&nbsp;десктопной версии. Раскладка всех компонентов страницы реализована на&nbsp;flexbox, в&nbsp;качестве сеточной системы выбран <a class='list__link' href='https://github.com/peterramsing/lost' target='_blank'>lost</a>.<br>Для каждого размера и&nbsp;разрешения экрана подготовлен свой комплект изображений; вся&nbsp;декоративная графика собрана в&nbsp;спрайты, которые в&nbsp;свою очередь разделены на&nbsp;векторные и&nbsp;растровые с&nbsp;помощью соответствующих npm-пакетов.<br>В&nbsp;качестве системы сборки использован gulp.<br>Проект является дипломной работой <a class='list__link' href='https://htmlacademy.ru/intensive/adaptive'>продвинутого интенсива htmlacademy</a>, по&nbsp;итогам успешной защиты выдан <a class='list__link' href='../_projects/pink/sertificate.jpg' target='_blank'>сертификат</a>.",
+    "siteLink": "_projects/pink/",
+    "repoLink": "https://github.com/CalledByThe4ire/Pink"
+  }
+]

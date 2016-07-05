@@ -1,0 +1,19 @@
+{
+  "name": "About Me",
+  "version": "0.1.0",
+  "authors": [
+    "Andrey Karamnoff"
+  ],
+  "description": "description",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize-css": "latest",
+    "jquery": "latest",
+    "html5shiv": "latest",
+    "wow": "latest",
+    "animate.css": "latest"
+  }
+}

@@ -1,0 +1,29 @@
+mixin projects
+	header.wow.fadeIn( elem="header" )
+		| Примеры работ
+	ul( block="list" )
+		each item in site.data.projects
+			li( elem="item", class="wow fadeIn", data-wow-duration=duration, data-wow-delay=( delay += stagger ) + "s")
+				div( elem="title" ) !{item.title}
+				div(elem="lead") !{item.lead}
+				ul( mod="nested" )
+					case item.type
+						when "inner"
+							li( elem="item" )
+								p( elem="text" ) !{item.text}
+
+							li( elem="item" )
+								a( elem="link", href=item.repoLink, target="_blank" )
+									| Ссылка на&nbsp;github-репозиторий
+
+						default
+							li( elem="item" )
+								p( elem="text" ) !{item.text}
+
+							li( elem="item" )
+								a( elem="link", href=item.siteLink, target="_blank" )
+									| Ссылка на сайт
+
+							li( elem="item" )
+								a( elem="link", href=item.repoLink, target="_blank" )
+									| Ссылка на&nbsp;github-репозиторий

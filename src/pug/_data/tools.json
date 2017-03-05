@@ -2,18 +2,22 @@
   {
     "valuesList": [
       {
-        "title": "Gulp",
+        "title": "Gulp,<br>",
         "link": "http://gulpjs.com/"
+      },
+      {
+        "title": "Webpack",
+        "link": "http://webpack.github.io/"
       }
     ],
-    "text": "система<br>сборки проекта"
+    "text": "системы<br>сборки проекта"
   },
 
   {
     "valuesList": [
       {
-        "title": "Jade",
-        "link": "http://jade-lang.com/"
+        "title": "Pug",
+        "link": "https://pugjs.org/api/getting-started.html"
       }
     ],
     "text": "HTML-препроцессор,<br>шаблонизатор"
@@ -52,11 +56,11 @@
   {
     "valuesList": [
       {
-        "title": "Bootstrap",
-        "link": "http://getbootstrap.com/"
+        "title": "React",
+        "link": "https://facebook.github.io/react/"
       }
     ],
-    "text": "популярный фреймворк<br>для верстки и прототипирования"
+    "text": "open-source библиотека<br>для построения интерфейсов<br>на основе модульного подхода"
   },
 
   {

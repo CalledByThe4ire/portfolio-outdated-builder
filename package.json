@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "autoprefixer": "latest",
-    "bower": "latest",
     "browser-sync": "latest",
     "cross-env": "latest",
     "css-mqpacker": "latest",
@@ -20,7 +19,6 @@
     "foldero": "latest",
     "fs": "latest",
     "gulp": "gulpjs/gulp#4.0",
-    "gulp-beml": "latest",
     "gulp-cheerio": "latest",
     "gulp-csso": "latest",
     "gulp-gh-pages": "latest",
@@ -40,6 +38,7 @@
     "gulp-uglify": "latest",
     "gulp.spritesmith": "latest",
     "imagemin-pngquant": "latest",
+    "bemto.jade": "^1.0.0",
     "lost": "latest",
     "postcss-object-fit-images": "latest",
     "postcss-triangle": "latest",
@@ -48,12 +47,19 @@
     "stream-combiner2": "latest"
   },
   "scripts": {
-    "postinstall": "node node_modules/bower/bin/bower install",
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\"",
     "build": "cross-env NODE_ENV=production ./node_modules/.bin/gulp build",
     "start": "./node_modules/.bin/gulp",
     "test": "editorconfig-tools check *"
   },
+  "dependencies": {
+    "@bower_components/animate.css": "daneden/animate.css#*",
+    "@bower_components/html5shiv": "aFarkas/html5shiv#*",
+    "@bower_components/jquery": "jquery/jquery-dist#*",
+    "@bower_components/normalize-css": "necolas/normalize.css#*",
+    "@bower_components/wow": "matthieua/WOW#^1.1.2"
+  },
   "engines": {
-    "node": "latest"
+    "yarn": ">= 1.0.0"
   }
 }

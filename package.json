@@ -38,6 +38,7 @@
     "gulp-uglify": "latest",
     "gulp.spritesmith": "latest",
     "imagemin-pngquant": "latest",
+    "bemto.jade": "^1.0.0",
     "lost": "latest",
     "postcss-object-fit-images": "latest",
     "postcss-triangle": "latest",

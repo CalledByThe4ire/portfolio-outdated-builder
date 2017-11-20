@@ -19,7 +19,6 @@
     "foldero": "latest",
     "fs": "latest",
     "gulp": "gulpjs/gulp#4.0",
-    "gulp-beml": "latest",
     "gulp-cheerio": "latest",
     "gulp-csso": "latest",
     "gulp-gh-pages": "latest",

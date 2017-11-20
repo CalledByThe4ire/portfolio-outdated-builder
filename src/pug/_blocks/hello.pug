@@ -1,7 +1,7 @@
 mixin hello
-	div( elem="title", mod="greetings", class="wow fadeInDown", data-wow-duration="0.5s" )
+	+e('div').title--greetings( class="wow fadeInDown", data-wow-duration="0.5s" )
 		| Привет!
-	div( elem="title", mod="full-name", class="wow fadeInRight", data-wow-duration="0.5s", data-wow-delay="1s" )
+	+e('div').title--full-name( class="wow fadeInRight", data-wow-duration="0.5s", data-wow-delay="1s" )
 		| Я Андрей Карамнов
-	div( elem="title", mod="description", class="wow fadeInLeft", data-wow-duration="0.5s", data-wow-delay="1s" )
+	+e('div').title--description( class="wow fadeInLeft", data-wow-duration="0.5s", data-wow-delay="1s" )
 		| frontend-разработчик

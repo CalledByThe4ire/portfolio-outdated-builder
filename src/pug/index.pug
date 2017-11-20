@@ -6,20 +6,20 @@ block content
 	each item in site.data.panes
 		case item.type
 			when "first"
-				+b('div').pane--#{item.title}(id="pane--" + item.title)&attributes(attributes)
+				+b('div').pane(id="pane--" + item.title, class="--" + item.title)&attributes(attributes)
 					+e('div').container
 						+hello
 						+e('a').next( class="wow bounceInUp", href="#pane--" + item.next,
 						data-wow-delay="3s") NEXT
 
 			when "last"
-				+b('div').pane--#{item.title}(id="pane--" + item.title)&attributes(attributes)
+				+b('div').pane(id="pane--" + item.title, class="--" + item.title)&attributes(attributes)
 					+e('div').container
 						+e('a').prev(href="#pane--" + item.prev) PREV
 						+contacts
 
 			default
-				+b('div').pane--#{item.title}(id="pane--" + item.title)&attributes(attributes)
+				+b('div').pane(id="pane--" + item.title, class="--" + item.title)&attributes(attributes)
 					+e('div').container
 						+e('a').prev(href="#pane--" + item.prev) PREV
 						+#{item.title}

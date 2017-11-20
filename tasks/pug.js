@@ -1,15 +1,16 @@
 "use strict";
 
 const gulp = require("gulp"),
-  pug = require("gulp-pug"),
-  foldero = require("foldero"),
-  fs = require("fs"),
-  notify = require("gulp-notify"),
-  combiner = require("stream-combiner2").obj;
+      pug = require("gulp-pug"),
+      foldero = require("foldero"),
+      fs = require("fs"),
+      notify = require("gulp-notify"),
+      combiner = require("stream-combiner2").obj;
+
+
 
 module.exports = function(options) {
   return function() {
-
     var siteData = {};
     if (fs.existsSync(options.data)) {
       siteData = foldero(options.data, {

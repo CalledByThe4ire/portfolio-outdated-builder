@@ -1,9 +1,9 @@
 "use strict";
 
 const gulp = require("gulp"),
-  notify = require("gulp-notify"),
-  prettify = require("gulp-html-prettify"),
-  combiner = require("stream-combiner2").obj;
+      notify = require("gulp-notify"),
+      prettify = require("gulp-html-prettify"),
+      combiner = require("stream-combiner2").obj;
 
 
 

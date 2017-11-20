@@ -6,10 +6,11 @@
   "author": "Andrey Karamnoff",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CalledByThe4ire/AboutMe"
+    "url": "git+https://github.com/CalledByThe4ire/AboutMe.git"
   },
   "devDependencies": {
     "autoprefixer": "latest",
+    "bemto.pug": "latest",
     "browser-sync": "latest",
     "cross-env": "latest",
     "css-mqpacker": "latest",
@@ -28,7 +29,7 @@
     "gulp-newer": "latest",
     "gulp-notify": "latest",
     "gulp-postcss": "latest",
-    "gulp-pug": "^3.0.3",
+    "gulp-pug": "latest",
     "gulp-rename": "latest",
     "gulp-rigger": "latest",
     "gulp-sourcemaps": "latest",
@@ -38,7 +39,6 @@
     "gulp-uglify": "latest",
     "gulp.spritesmith": "latest",
     "imagemin-pngquant": "latest",
-    "bemto.jade": "^1.0.0",
     "lost": "latest",
     "postcss-object-fit-images": "latest",
     "postcss-triangle": "latest",
@@ -46,20 +46,17 @@
     "rupture": "latest",
     "stream-combiner2": "latest"
   },
+  "dependencies": {
+    "animate.css": "latest",
+    "html5shiv": "latest",
+    "jquery": "latest",
+    "normalize-css": "latest",
+    "wowjs": "latest"
+  },
   "scripts": {
-    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'bower_components', 'junction') } catch (e) { }\"",
     "build": "cross-env NODE_ENV=production ./node_modules/.bin/gulp build",
     "start": "./node_modules/.bin/gulp",
-    "test": "editorconfig-tools check *"
-  },
-  "dependencies": {
-    "@bower_components/animate.css": "daneden/animate.css#*",
-    "@bower_components/html5shiv": "aFarkas/html5shiv#*",
-    "@bower_components/jquery": "jquery/jquery-dist#*",
-    "@bower_components/normalize-css": "necolas/normalize.css#*",
-    "@bower_components/wow": "matthieua/WOW#^1.1.2"
-  },
-  "engines": {
-    "yarn": ">= 1.0.0"
+    "clean": "./node_modules/.bin/gulp clean",
+    "deploy": "./node_modules/.bin/gulp deploy"
   }
 }

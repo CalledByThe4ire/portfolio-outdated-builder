@@ -1,10 +1,10 @@
 "use strict";
 
 const gulp = require("gulp"),
-  gulpIf = require("gulp-if"),
-  newer = require("gulp-newer"),
-  imagemin = require("gulp-imagemin"),
-  pngquant = require("imagemin-pngquant");
+      gulpIf = require("gulp-if"),
+      newer = require("gulp-newer"),
+      imagemin = require("gulp-imagemin"),
+      pngquant = require("imagemin-pngquant");
 
 const env= !process.env.NODE_ENV || process.env.NODE_ENV === "development";
 

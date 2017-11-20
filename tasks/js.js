@@ -1,13 +1,13 @@
 "use strict";
 
 const gulp = require("gulp"),
-  gulpIf = require("gulp-if"),
-  notify = require("gulp-notify"),
-  rename = require("gulp-rename"),
-  rigger = require("gulp-rigger"),
-  uglify = require("gulp-uglify"),
-  sourcemaps = require("gulp-sourcemaps"),
-  combiner = require("stream-combiner2").obj;
+      gulpIf = require("gulp-if"),
+      notify = require("gulp-notify"),
+      rename = require("gulp-rename"),
+      rigger = require("gulp-rigger"),
+      uglify = require("gulp-uglify"),
+      sourcemaps = require("gulp-sourcemaps"),
+      combiner = require("stream-combiner2").obj;
 
 const env= !process.env.NODE_ENV || process.env.NODE_ENV === "development";
 

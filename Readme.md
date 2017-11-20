@@ -3,6 +3,6 @@
 
 Move to folder
 
-Run "yarn install", "npm run build"
+Run `yarn install`, `npm run build`
 
-Open "build/index.html"
+Open `build/index.html`

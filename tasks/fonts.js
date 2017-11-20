@@ -1,7 +1,7 @@
 "use strict";
 
-const gulp = require("gulp");
-const newer = require("gulp-newer");
+const gulp = require("gulp"),
+      newer = require("gulp-newer");
 
 
 

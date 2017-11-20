@@ -1,5 +1,5 @@
 mixin tools
-	header( class="__header wow fadeIn" )
+	header( class="pane__header wow fadeIn" )
 		| Инструменты, которыми я&nbsp;пользуюсь,
 		br
 		| работая над проектом
@@ -9,6 +9,6 @@ mixin tools
 				+e('div').title
 					each val in item.valuesList
 						+e('a').link( target="_blank", href=val.link ) !{val.title}
-				ul( class="--nested" )
+				+b('ul').list--nested
 					+e('li').item
 						+e('p').text !{item.text}

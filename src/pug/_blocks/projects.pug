@@ -1,12 +1,12 @@
 mixin projects
-	header.wow.fadeIn( elem="header" )
+	header( class="pane__header wow fadeIn" )
 		| Примеры работ
 	+b('ul').list
 		each item in site.data.projects
 			+e.item( class="wow fadeIn", data-wow-duration=duration, data-wow-delay=( delay += stagger ) + "s")
 				+e('div').title !{item.title}
 				+e('div').lead !{item.lead}
-				ul( class="--nested" )
+				+b('ul').list--nested
 					case item.type
 						when "inner"
 							+e('li').item

@@ -7,7 +7,6 @@ const gulp = require("gulp"),
 
 module.exports = function(options) {
   return function() {
-    console.log('---------- Publishing ./build/ on GH pages');
     return gulp.src('./build/**/*')
       .pipe(ghPages());
   };

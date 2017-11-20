@@ -1,31 +1,29 @@
 "use strict";
 
 const gulp = require("gulp"),
-  gulpIf = require("gulp-if"),
-  del = require("del"),
-  notify = require("gulp-notify"),
-  combiner = require("stream-combiner2").obj,
-  rename = require("gulp-rename"),
-  stylus = require("gulp-stylus"),
-  postStylus = require("poststylus"),
-  postCSS = require("gulp-postcss"),
-  lost = require("lost"),
-  prefixer = require("autoprefixer"),
-  mqPacker = require("css-mqpacker"),
-  minify = require("gulp-csso"),
-  objectFitImages = require("postcss-object-fit-images"),
-  sourcemaps = require("gulp-sourcemaps"),
-  triangle = require("postcss-triangle"),
-  rupture = require("rupture");
+      gulpIf = require("gulp-if"),
+      del = require("del"),
+      notify = require("gulp-notify"),
+      combiner = require("stream-combiner2").obj,
+      rename = require("gulp-rename"),
+      stylus = require("gulp-stylus"),
+      postStylus = require("poststylus"),
+      postCSS = require("gulp-postcss"),
+      lost = require("lost"),
+      prefixer = require("autoprefixer"),
+      mqPacker = require("css-mqpacker"),
+      minify = require("gulp-csso"),
+      objectFitImages = require("postcss-object-fit-images"),
+      sourcemaps = require("gulp-sourcemaps"),
+      triangle = require("postcss-triangle"),
+      rupture = require("rupture");
 
 const env= !process.env.NODE_ENV || process.env.NODE_ENV === "development";
 
 
 
 module.exports = function(options) {
-
   return function() {
-
     var processors = [
       postStylus,
       lost,
@@ -49,8 +47,8 @@ module.exports = function(options) {
         compress: false,
         "include css": true,
         import: [
-          process.cwd() + "/bower_components/animate.css/animate.css",
-          process.cwd() + "/bower_components/normalize-css/normalize.css"
+          process.cwd() + "/node_modules/animate.css/animate.css",
+          process.cwd() + "/node_modules/normalize-css/normalize.css"
           ],
         use: [
           postStylus(processors),

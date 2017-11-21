@@ -4,135 +4,195 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" sizes="16x16" type="image/png" href="favicon-16x16.png">
+  <link rel="icon" sizes="32x32" type="image/png" href="favicon-32x32.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
   <title>About Me
   </title>
-  <link rel="shortcut icon" sizes="" href="img/favicons/favicon.ico">
-  <link rel="apple-touch-icon" sizes="" href="img/favicons/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-114x114.png">
   <link href="css/main.min.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="pane pane--hello" id="pane--hello">
     <div class="pane__container">
-      <div class="wow fadeInDown pane__title pane__title--greetings" data-wow-duration="0.5s">Привет!</div>
-      <div class="wow fadeInRight pane__title pane__title--full-name" data-wow-duration="0.5s" data-wow-delay="1s">Я Андрей Карамнов</div>
-      <div class="wow fadeInLeft pane__title pane__title--description" data-wow-duration="0.5s" data-wow-delay="1s">frontend-разработчик</div><a class="wow bounceInUp pane__next" href="#pane--skills" data-wow-delay="3s">NEXT</a>
+      <div class="pane__title pane__title--greetings wow fadeInDown" data-wow-duration="0.5s">Привет!
+      </div>
+      <div class="pane__title pane__title--full-name wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="1s">Я Андрей Карамнов
+      </div>
+      <div class="pane__title pane__title--description wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="1s">frontend-разработчик
+      </div><a class="pane__next wow bounceInUp" href="#pane--skills" data-wow-delay="3s">NEXT</a>
     </div>
   </div>
   <div class="pane pane--skills" id="pane--skills">
     <div class="pane__container"><a class="pane__prev" href="#pane--hello">PREV</a>
-      <header class="wow fadeIn pane__header">Ключевые навыки</header>
+      <header class="pane__header wow fadeIn">Ключевые навыки</header>
       <ul class="list">
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="1s">
-          <div class="list__title">HTML5</div>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="1s">
+          <div class="list__title">HTML5
+          </div>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="1.25s">
-          <div class="list__title">CSS3</div>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="1.25s">
+          <div class="list__title">CSS3
+          </div>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="1.5s">
-          <div class="list__title">Javascript</div>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="1.5s">
+          <div class="list__title">Javascript
+          </div>
         </li>
       </ul>
-      <div class="pane__description">отличное знание вышеперечисленных технологий, отслеживание изменений в&nbsp;спецификациях, использование различных библиотек и&nbsp;фреймворков</div><a class="wow bounceInUp pane__next" href="#pane--tools" data-wow-delay="1.25s">NEXT</a>
+      <div class="pane__description">отличное знание вышеперечисленных технологий, отслеживание изменений в&nbsp;спецификациях, использование различных библиотек и&nbsp;фреймворков
+      </div><a class="pane__next wow bounceInUp" href="#pane--tools" data-wow-delay="1.25s"> NEXT</a>
     </div>
   </div>
   <div class="pane pane--tools" id="pane--tools">
     <div class="pane__container"><a class="pane__prev" href="#pane--skills">PREV</a>
-      <header class="wow fadeIn pane__header">Инструменты, которыми я&nbsp;пользуюсь,
-        <br>работая над проектом</header>
+      <header class="pane__header wow fadeIn">Инструменты, которыми я&nbsp;пользуюсь,
+        <br/>работая над проектом</header>
       <ul class="list">
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="1.5s">
-          <div class="list__title"><a class="list__link" target="_blank" href="http://gulpjs.com/">Gulp</a>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="1.5s">
+          <div class="list__title"><a class="list__link" target="_blank" href="http://gulpjs.com/">Gulp,<br></a><a class="list__link" target="_blank" href="http://webpack.github.io/">Webpack</a>
           </div>
           <ul class="list list--nested">
             <li class="list__item">
-              <p class="list__text">система
-                <br>сборки проекта</p>
+              <p class="list__text">системы
+                <br>сборки проекта
+              </p>
             </li>
           </ul>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="1.75s">
-          <div class="list__title"><a class="list__link" target="_blank" href="http://jade-lang.com/">Jade</a>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="1.75s">
+          <div class="list__title"><a class="list__link" target="_blank" href="https://pugjs.org/api/getting-started.html">Pug</a>
           </div>
           <ul class="list list--nested">
             <li class="list__item">
               <p class="list__text">HTML-препроцессор,
-                <br>шаблонизатор</p>
+                <br>шаблонизатор
+              </p>
             </li>
           </ul>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="2s">
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="2s">
           <div class="list__title"><a class="list__link" target="_blank" href="http://sass-lang.com/">SASS,&nbsp;</a><a class="list__link" target="_blank" href="http://stylus-lang.com/">Stylus,<br></a><a class="list__link" target="_blank" href="https://github.com/jonathantneal/precss#precss-">PreCSS</a>
           </div>
           <ul class="list list--nested">
             <li class="list__item">
-              <p class="list__text">CSS-препроцессоры</p>
+              <p class="list__text">CSS-препроцессоры
+              </p>
             </li>
           </ul>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="2.25s">
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="2.25s">
           <div class="list__title"><a class="list__link" target="_blank" href="https://git-scm.com/">Git</a>
           </div>
           <ul class="list list--nested">
             <li class="list__item">
               <p class="list__text">система
-                <br>контроля версий</p>
+                <br>контроля версий
+              </p>
             </li>
           </ul>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="2.5s">
-          <div class="list__title"><a class="list__link" target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="2.5s">
+          <div class="list__title"><a class="list__link" target="_blank" href="https://facebook.github.io/react/">React</a>
           </div>
           <ul class="list list--nested">
             <li class="list__item">
-              <p class="list__text">популярный фреймворк
-                <br>для верстки и прототипирования</p>
+              <p class="list__text">open-source библиотека
+                <br>для построения интерфейсов
+                <br>на основе модульного подхода
+              </p>
             </li>
           </ul>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="2.75s">
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="2.75s">
           <div class="list__title"><a class="list__link" target="_blank" href="https://ru.bem.info/">БЭМ</a>
           </div>
           <ul class="list list--nested">
             <li class="list__item">
               <p class="list__text">методология
-                <br>именования классов</p>
+                <br>именования классов
+              </p>
             </li>
           </ul>
         </li>
-      </ul><a class="wow bounceInUp pane__next" href="#pane--projects" data-wow-delay="2.5s">NEXT</a>
+      </ul><a class="pane__next wow bounceInUp" href="#pane--projects" data-wow-delay="2.5s"> NEXT</a>
     </div>
   </div>
   <div class="pane pane--projects" id="pane--projects">
     <div class="pane__container"><a class="pane__prev" href="#pane--tools">PREV</a>
-      <header class="wow fadeIn pane__header">Примеры работ</header>
+      <header class="pane__header wow fadeIn">Примеры работ</header>
       <ul class="list">
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="2.75s">
-          <div class="list__title">Презентация</div>
-          <div class="list__lead">которую вы сейчас смотрите</div>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="2.75s">
+          <div class="list__title">Презентация
+          </div>
+          <div class="list__lead">которую вы сейчас смотрите
+          </div>
           <ul class="list list--nested">
             <li class="list__item">
-              <p class="list__text">Сверстал проект на&nbsp;препроцессорах jade и&nbsp;stylus, в&nbsp;соответствии с&nbsp;методологией БЭМ. Анимацию реализовал с&nbsp;помощью библиотек animate.css и wow.js. В&nbsp;качестве системы сборки использовал gulp.</p>
+              <p class="list__text">Сверстал проект на&nbsp;препроцессорах pug и&nbsp;stylus, в&nbsp;соответствии с&nbsp;методологией БЭМ. Анимацию реализовал с&nbsp;помощью библиотек animate.css и wow.js. В&nbsp;качестве системы сборки использовал gulp.
+              </p>
             </li>
             <li class="list__item"><a class="list__link" href="https://github.com/CalledByThe4ire/AboutMe" target="_blank">Ссылка на&nbsp;github-репозиторий</a>
             </li>
           </ul>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="3s">
-          <div class="list__title">Pink</div>
-          <div class="list__lead">Веб-сайт</div>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="3s">
+          <div class="list__title">Mishka
+          </div>
+          <div class="list__lead">Веб-сайт
+          </div>
           <ul class="list list--nested">
             <li class="list__item">
-              <p class="list__text">В качестве препроцессоров использовал jade и&nbsp;stylus, методологию именования классов&nbsp;&ndash; БЭМ.
-                <br>Макет сделан максимально адаптивным и выглядит по-разному для&nbsp;мобильной, планшетной и&nbsp;десктопной версии. Раскладку всех компонентов страницы реализовал на&nbsp;flexbox, в&nbsp;качестве сеточной системы выбрал <a class="list__link"
-                href="https://github.com/peterramsing/lost" target="_blank">lost</a>.
-                <br>Для каждого размера и&nbsp;разрешения экрана подготовил свой комплект изображений; всю&nbsp;декоративную графика собрал в&nbsp;спрайты, которые в&nbsp;свою очередь разделил на&nbsp;векторные и&nbsp;растровые с&nbsp;помощью соответствующих
+              <p class="list__text">Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ.
+                <br>Сеточную систему построил на&nbsp;<a class='list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>, раскладку всех компонентов реализовал на&nbsp;flexbox.
+                <br>В&nbsp;качестве системы сборки использовал gulp.
+              </p>
+            </li>
+            <li class="list__item"><a class="list__link" href="_projects/mishka/" target="_blank">Ссылка на сайт</a>
+            </li>
+            <li class="list__item"><a class="list__link" href="https://github.com/CalledByThe4ire/Mishka" target="_blank">Ссылка на&nbsp;github-репозиторий</a>
+            </li>
+          </ul>
+        </li>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="3.25s">
+          <div class="list__title">Catch&nbsp;of&nbsp;the&nbsp;Day
+          </div>
+          <div class="list__lead">Приложение на React
+          </div>
+          <ul class="list list--nested">
+            <li class="list__item">
+              <p class="list__text">В рамках проекта я&nbsp;написал мультипользовательский тематический интернет-магазин с&nbsp;авторизацией через социальные сети. Авторизацию, а&nbsp;также синхронизацию данных для&nbsp;генерируемого списка товаров реализовал через сервис
+                <a
+                class='list__link' href='https://firebase.google.com/' target='_blank'>Firebase</a>.
+                  <br>Для&nbsp;хранения информации о&nbsp;заказе использовал localStorage.
+                  <br>Данные о&nbsp;товарах и&nbsp;заказе сохранил в&nbsp;состоянии компонента уровня приложения, данные пользователя&nbsp;&ndash; в&nbsp;состоянии компонента, отвечающего за&nbsp;авторизацию.
+                  <br>В&nbsp;качестве css-препроцессора использовал <a class='list__link' href='http://stylus-lang.com/' target='_blank'>stylus</a>, система сборки&nbsp;&ndash; <a class='list__link' href='http://webpack.github.io/' target='_blank'>webpack</a> (работал
+                  в окружении, сконфигурированном с помощью npm-пакета <a class='list__link' href='https://github.com/facebookincubator/create-react-app' target='_blank'>create-react-app</a>).
+              </p>
+            </li>
+            <li class="list__item"><a class="list__link" href="https://github.com/CalledByThe4ire/Catch-of-the-Day" target="_blank">Ссылка на&nbsp;github-репозиторий</a>
+            </li>
+          </ul>
+        </li>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="3.5s">
+          <div class="list__title">Pink
+          </div>
+          <div class="list__lead">Веб-сайт
+          </div>
+          <ul class="list list--nested">
+            <li class="list__item">
+              <p class="list__text">В качестве препроцессоров использовал pug и&nbsp;stylus, методологию именования классов&nbsp;&ndash; БЭМ.
+                <br>Макет сделан максимально адаптивным и выглядит по-разному для&nbsp;мобильной, планшетной и&nbsp;десктопной версии. Раскладку всех компонентов страницы реализовал на&nbsp;flexbox, в&nbsp;качестве сеточной системы выбрал <a class='list__link'
+                href='https://github.com/peterramsing/lost' target='_blank'>lost</a>.
+                <br>Для каждого размера и&nbsp;разрешения экрана подготовил свой комплект изображений; всю&nbsp;декоративную графику собрал в&nbsp;спрайты, которые в&nbsp;свою очередь разделил на&nbsp;векторные и&nbsp;растровые с&nbsp;помощью соответствующих
                 npm-пакетов.
                 <br>В&nbsp;качестве системы сборки использовал gulp.
-                <br>Проект является дипломной работой <a class="list__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">продвинутого интенсива htmlacademy</a>, по&nbsp;итогам успешной защиты ( (100% выполненных заданий) ) получил <a class="list__link"
-                href="../_projects/pink/sertificate.jpg" target="_blank">сертификат</a>.</p>
+                <br>Проект является дипломной работой <a class='list__link' href='https://htmlacademy.ru/intensive/adaptive' target='_blank'>продвинутого интенсива htmlacademy</a>, по&nbsp;итогам успешной защиты ( (100% выполненных заданий) ) получил <a class='list__link'
+                href='../_projects/pink/sertificate.jpg' target='_blank'>сертификат</a>.
+              </p>
             </li>
             <li class="list__item"><a class="list__link" href="_projects/pink/" target="_blank">Ссылка на сайт</a>
             </li>
@@ -140,9 +200,11 @@
             </li>
           </ul>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="3.25s">
-          <div class="list__title">Код и&nbsp;Магия</div>
-          <div class="list__lead">Приложение</div>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="3.75s">
+          <div class="list__title">Код и&nbsp;Магия
+          </div>
+          <div class="list__lead">Приложение
+          </div>
           <ul class="list list--nested">
             <li class="list__item">
               <p class="list__text">В&nbsp;рамках проекта я решил следующие задачи:
@@ -153,33 +215,34 @@
                 <br>–&nbsp;для&nbsp;списка отзывов написал фильтрацию с&nbsp;постраничным выводом, последний примененный фильтр сохраняется в&nbsp;localStorage;
                 <br>–&nbsp;написал функцию-конструктор для&nbsp;создания объекта галереи, отвечающего за&nbsp;показ фотографий, с&nbsp;использованием объекта для&nbsp;работы с&nbsp;адресной строкой;
                 <br>–&nbsp;в&nbsp;блоке с&nbsp;игрой реализовал эффект параллакса.
-                <br>Проект является дипломной работой <a class="list__link" href="https://htmlacademy.ru/intensive/javascript" target="_blank">интенсива по&nbsp;javascript</a> от&nbsp;<a class="list__link" href="https://htmlacademy.ru/" target="_blank">htmlacademy</a>:
+                <br>Проект является дипломной работой <a class='list__link' href='https://htmlacademy.ru/intensive/javascript' target='_blank'>интенсива по&nbsp;javascript</a> от&nbsp;<a class='list__link' href='https://htmlacademy.ru/' target='_blank'>htmlacademy</a>:
                 <br>весь код написан на&nbsp;чистом&nbsp;js, без&nbsp;использования вспомогательных библиотек;
                 <br>помимо синтаксических особенностей языка, на&nbsp;интенсиве рассматривались такие темы, как использование модульного подхода в&nbsp;разработке, введение в&nbsp;компонентный подход (разделение поведения и&nbsp;состояния DOM-компонент, работа
                 с&nbsp;типизированными объектами (классами) ), объектно-ориентированное программирование.
-                <br>По итогам успешной защиты проекта (100% выполненных заданий) получил <a class="list__link" href="_projects/CodeAndMagick/sertificate.jpg" target="_blank">сертификат</a>.</p>
+                <br>По итогам успешной защиты проекта (100% выполненных заданий) получил <a class='list__link' href='_projects/CodeAndMagick/sertificate.jpg' target='_blank'>сертификат</a>.
+              </p>
             </li>
             <li class="list__item"><a class="list__link" href="https://github.com/CalledByThe4ire/17243-code-and-magick" target="_blank">Ссылка на&nbsp;github-репозиторий</a>
             </li>
           </ul>
         </li>
-      </ul><a class="wow bounceInUp pane__next" href="#pane--contacts" data-wow-delay="3s">NEXT</a>
+      </ul><a class="pane__next wow bounceInUp" href="#pane--contacts" data-wow-delay="3.5s"> NEXT</a>
     </div>
   </div>
   <div class="pane pane--contacts" id="pane--contacts">
     <div class="pane__container"><a class="pane__prev" href="#pane--projects">PREV</a>
-      <header class="wow fadeIn pane__header">Свяжитесь со&nbsp;мной</header>
+      <header class="pane__header wow fadeIn">Свяжитесь со&nbsp;мной</header>
       <ul class="list">
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="3.25s">
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="3.75s">
           <div class="list__title"><a class="list__link" href="mailto:karamnoff@gmail.com">e-mail</a>
           </div>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="3.5s">
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="4s">
           <div class="list__title"><a class="list__link" href="skype:calledbythefire?add">skype</a>
           </div>
         </li>
-        <li class="wow fadeIn list__item" data-wow-duration="0.25s" data-wow-delay="3.75s">
-          <div class="list__title"><a class="list__link" href="http://www.facebook.com/addfriend.php?id=AndreyKaramnoff">facebook</a>
+        <li class="list__item wow fadeIn" data-wow-duration="0.25s" data-wow-delay="4.25s">
+          <div class="list__title"><a class="list__link" href="https://m.me/AndreyKarammoff">messenger</a>
           </div>
         </li>
       </ul>

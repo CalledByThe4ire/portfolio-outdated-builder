@@ -24,20 +24,20 @@
     "repoLink": "https://github.com/CalledByThe4ire/oop-in-javascript"
   },
   {
-    "title": "Mishka",
-    "lead": "Веб-сайт",
-    "text":
-      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ.<br>Сеточную систему построил на&nbsp;<a class='list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>, раскладку всех компонентов реализовал на&nbsp;flexbox.<br>В&nbsp;качестве системы сборки использовал gulp.",
-    "siteLink": "_projects/mishka/",
-    "repoLink": "https://github.com/CalledByThe4ire/Mishka"
-  },
-  {
     "type": "inner",
     "title": "Brain Games",
     "lead": "NodeJS-Приложение",
     "text":
       "Проект от <a class='list__link' href='https://ru.hexlet.io/professions/frontend' target='_blank'>hexlet</a> в рамках прохождения онлайн-курса «Фронтенд JS-программист».<br> Представляет собой <a class='list__link' href='https://www.npmjs.com/package/cbt4-brain-games' target='_blank'>npm-пакет</a> в виде набора мини-игр, запускаемых из консоли.",
     "repoLink": "https://github.com/CalledByThe4ire/project-lvl1-s412"
+  },
+  {
+    "title": "Mishka",
+    "lead": "Веб-сайт",
+    "text":
+      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ.<br>Сеточную систему построил на&nbsp;<a class='list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>, раскладку всех компонентов реализовал на&nbsp;flexbox.<br>В&nbsp;качестве системы сборки использовал gulp.",
+    "siteLink": "_projects/mishka/",
+    "repoLink": "https://github.com/CalledByThe4ire/Mishka"
   },
   {
     "title": "Pink",

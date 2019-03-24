@@ -8,12 +8,12 @@
     "repoLink": "https://github.com/CalledByThe4ire/AboutMe"
   },
   {
-    "title": "Mishka",
+    "title": "Sedona",
     "lead": "Веб-сайт",
     "text":
-      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ.<br>Сеточную систему построил на&nbsp;<a class='list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>, раскладку всех компонентов реализовал на&nbsp;flexbox.<br>В&nbsp;качестве системы сборки использовал gulp.",
-    "siteLink": "_projects/mishka/",
-    "repoLink": "https://github.com/CalledByThe4ire/Mishka"
+      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ, для сетки и всех компонентов&nbsp;— <a class='list__link' href='https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout' target='_blank'>CSS Grid Layout</a> и&nbsp;<a class='list__link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox' target='_blank'>flexbox</a>.<br>В&nbsp;качестве системы сборки был выбран <a class='list__link' href='https://github.com/tars/tars/blob/master/README_RU.md' target='_blank'>TARS</a>.",
+    "siteLink": "_projects/sedona/",
+    "repoLink": "https://github.com/CalledByThe4ire/sedona-pug-tars"
   },
   {
     "type": "inner",
@@ -22,6 +22,14 @@
     "text":
       "Реализовал несколько проектов, используя объектно-ориентированную парадигму программирования, в рамках онлайн-курса от <a class='list__link' href='https://codedojo.ru/' target='_blank'>CodeDojo</a>: <a class='list__link' href='https://codedojo.ru/online-courses/javascript-oop-0/' target='_blank'>Объектно-ориентированное программирование в Javascript</a>. Программа курса, помимо основных концепций, имеющих прямое отношение к ООП (инкапсуляция, наследование, полиморфизм, композиция), также включала в себя SOLID-принципы и паттерны проектирования",
     "repoLink": "https://github.com/CalledByThe4ire/oop-in-javascript"
+  },
+  {
+    "title": "Mishka",
+    "lead": "Веб-сайт",
+    "text":
+      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ.<br>Сеточную систему построил на&nbsp;<a class='list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>, раскладку всех компонентов реализовал на&nbsp;flexbox.<br>В&nbsp;качестве системы сборки использовал gulp.",
+    "siteLink": "_projects/mishka/",
+    "repoLink": "https://github.com/CalledByThe4ire/Mishka"
   },
   {
     "type": "inner",

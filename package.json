@@ -50,6 +50,7 @@
     "animate.css": "3.7.0",
     "html5shiv": "3.7.3",
     "jquery": "3.3.1",
+    "masonry-layout": "^4.2.2",
     "normalize-css": "2.3.1",
     "wowjs": "1.1.3"
   },

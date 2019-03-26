@@ -1,4 +1,3 @@
-"use strict";
 (function() {
   var w;
   w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);

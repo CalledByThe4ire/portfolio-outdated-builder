@@ -2,9 +2,16 @@
 	&--projects
 		& ^[0]__container // .pane__container
 			> .list
+				& > .grid-sizer
 				& ^[3..3]__item // .list__item
+					width 100%
+
 					+above($screen-md)
-						lost-column 1/2
+						width 46%
+
+				& > .gutter-sizer
+					+above($screen-md)
+						width 4%
 
 				& ^[3..3]__link // .list__link
 					font-size 20 * $px

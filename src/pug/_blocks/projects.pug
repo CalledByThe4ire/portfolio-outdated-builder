@@ -3,7 +3,9 @@ mixin projects
 		| Примеры работ
 	+b('ul').list
 		each item in site.data.projects
-			+e.item( class="wow fadeIn", data-wow-duration=duration, data-wow-delay=( delay += stagger ) + "s")
+			.grid-sizer
+			.gutter-sizer
+			+e.item( class="wow fadeIn grid-item", data-wow-duration=duration, data-wow-delay=( delay += stagger ) + "s")
 				+e('div').title !{item.title}
 				+e('div').lead !{item.lead}
 				+b('ul').list--nested

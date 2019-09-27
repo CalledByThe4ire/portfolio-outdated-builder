@@ -8,6 +8,14 @@
     "repoLink": "https://github.com/CalledByThe4ire/AboutMe"
   },
   {
+    "type": "inner",
+    "title": "Вычислитель отличий",
+    "lead": "NodeJS-Приложение",
+    "text":
+      "Проект от <a class='list__link' href='https://ru.hexlet.io/professions/frontend' target='_blank'>hexlet</a> в рамках прохождения онлайн-курса «Фронтенд JS-программист».<br> Представляет собой <a class='list__link' href='https://www.npmjs.com/package/cbt4-brain-games' target='_blank'>npm-пакет</a> для поиска отличий в конфигурационных файлах.",
+    "repoLink": "https://github.com/CalledByThe4ire/project-lvl1-s412"
+  },
+  {
     "title": "Sedona",
     "lead": "Веб-сайт",
     "text":
@@ -25,6 +33,14 @@
   },
   {
     "type": "inner",
+    "title": "Игры разума",
+    "lead": "NodeJS-Приложение",
+    "text":
+      "Проект от <a class='list__link' href='https://ru.hexlet.io/professions/frontend' target='_blank'>hexlet</a> в рамках прохождения онлайн-курса «Фронтенд JS-программист».<br> Представляет собой <a class='list__link' href='https://www.npmjs.com/package/cbt4-brain-games' target='_blank'>npm-пакет</a> в виде набора мини-игр, запускаемых из консоли.",
+    "repoLink": "https://github.com/CalledByThe4ire/project-lvl1-s412"
+  },
+  {
+    "type": "inner",
     "title": "Код и&nbsp;Магия",
     "lead": "Приложение",
     "text":
@@ -38,14 +54,6 @@
     "text":
       "Реализовал несколько проектов, используя объектно-ориентированную парадигму программирования, в рамках онлайн-курса от <a class='list__link' href='https://codedojo.ru/' target='_blank'>CodeDojo</a>: <a class='list__link' href='https://codedojo.ru/online-courses/javascript-oop-0/' target='_blank'>Объектно-ориентированное программирование в Javascript</a>. Программа курса, помимо основных концепций, имеющих прямое отношение к ООП (инкапсуляция, наследование, полиморфизм, композиция), также включала в себя SOLID-принципы и паттерны проектирования",
     "repoLink": "https://github.com/CalledByThe4ire/oop-in-javascript"
-  },
-  {
-    "type": "inner",
-    "title": "Brain Games",
-    "lead": "NodeJS-Приложение",
-    "text":
-      "Проект от <a class='list__link' href='https://ru.hexlet.io/professions/frontend' target='_blank'>hexlet</a> в рамках прохождения онлайн-курса «Фронтенд JS-программист».<br> Представляет собой <a class='list__link' href='https://www.npmjs.com/package/cbt4-brain-games' target='_blank'>npm-пакет</a> в виде набора мини-игр, запускаемых из консоли.",
-    "repoLink": "https://github.com/CalledByThe4ire/project-lvl1-s412"
   },
   {
     "title": "Mishka",

@@ -4,14 +4,14 @@
     "title": "Презентация",
     "lead": "которую вы сейчас смотрите",
     "text":
-      "Сверстал проект на&nbsp;препроцессорах pug и&nbsp;stylus, в&nbsp;соответствии с&nbsp;методологией БЭМ. Анимацию реализовал с&nbsp;помощью библиотек animate.css и wow.js. В&nbsp;качестве системы сборки использовал gulp.",
+      "Сверстал проект на&nbsp;препроцессорах pug и&nbsp;stylus, в&nbsp;соответствии с&nbsp;методологией БЭМ. Анимацию реализовал с&nbsp;помощью библиотек animate.css и wow.js. В&nbsp;качестве сборщика проекта использовал gulp.",
     "repoLink": "https://github.com/CalledByThe4ire/AboutMe"
   },
   {
     "title": "Лига Банк",
     "lead": "Корпоративный сайт Лига Банка с кредитным калькулятором и множеством интерактивных элементов",
     "text":
-      "Макет сверстал на pug, sass и&nbsp;нативном&nbsp;javascript&nbsp;(es6), для&nbsp;именования классов использовал БЭМ.<br>В&nbsp;качестве системы сборки был выбран&nbsp;<a class='list__link' href='https://github.com/werty1001/bemgo/blob/master/README_RU.md' target='_blank'>BemGO</a>.",
+      "Макет сверстал на pug, sass и&nbsp;нативном&nbsp;javascript&nbsp;(es6), для&nbsp;именования классов использовал БЭМ.<br>В&nbsp;качестве сборщика проекта был выбран&nbsp;<a class='list__link' href='https://github.com/werty1001/bemgo/blob/master/README_RU.md' target='_blank'>BemGo</a>.",
     "siteLink": "_projects/liga-bank/",
     "repoLink": "https://github.com/CalledByThe4ire/liga-bank"
   },
@@ -67,7 +67,7 @@
     "title": "Mishka",
     "lead": "Веб-сайт",
     "text":
-      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ.<br>Сеточную систему построил на&nbsp;<a class='list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>, раскладку всех компонентов реализовал на&nbsp;flexbox.<br>В&nbsp;качестве системы сборки использовал gulp.",
+      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ.<br>Сеточную систему построил на&nbsp;<a class='list__link' href='http://susy.oddbird.net/' target='_blank'>susy</a>, раскладку всех компонентов реализовал на&nbsp;flexbox.<br>В&nbsp;качестве сборщика проекта использовал gulp.",
     "siteLink": "_projects/mishka/",
     "repoLink": "https://github.com/CalledByThe4ire/Mishka"
   }

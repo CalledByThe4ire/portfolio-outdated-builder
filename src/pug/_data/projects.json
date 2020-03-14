@@ -27,7 +27,7 @@
     "title": "Sedona",
     "lead": "Веб-сайт",
     "text":
-      "Макет сверстал на pug и&nbsp;sass, для&nbsp;именования классов использовал БЭМ, для сетки и всех компонентов&nbsp;— <a class='list__link' href='https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout' target='_blank'>CSS Grid Layout</a> и&nbsp;<a class='list__link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox' target='_blank'>flexbox</a>.<br>В&nbsp;качестве системы сборки был выбран <a class='list__link' href='https://github.com/tars/tars/blob/master/README_RU.md' target='_blank'>TARS</a>.",
+      "Макет сверстал на pug, sass и&nbsp;нативном&nbsp;javascript&nbsp;(es6), для&nbsp;именования классов использовал БЭМ, для сетки и всех компонентов&nbsp;— <a class='list__link' href='https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout' target='_blank'>CSS Grid Layout</a> и&nbsp;<a class='list__link' href='https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox' target='_blank'>flexbox</a>.<br>В&nbsp;качестве системы сборки был выбран <a class='list__link' href='https://github.com/tars/tars/blob/master/README_RU.md' target='_blank'>TARS</a>.",
     "siteLink": "_projects/sedona/",
     "repoLink": "https://github.com/CalledByThe4ire/sedona-pug-tars"
   },

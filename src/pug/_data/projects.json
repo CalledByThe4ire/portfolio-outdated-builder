@@ -58,7 +58,7 @@
   {
     "type": "inner",
     "title": "Conway's Game of Life & Painter",
-    "lead": "VanillaJS-Приложение",
+    "lead": "JS-Приложение",
     "text":
       "Реализовал несколько проектов, используя объектно-ориентированную парадигму программирования, в рамках онлайн-курса от <a class='list__link' href='https://codedojo.ru/' target='_blank'>CodeDojo</a>: <a class='list__link' href='https://codedojo.ru/online-courses/javascript-oop-0/' target='_blank'>Объектно-ориентированное программирование в Javascript</a>. Программа курса, помимо основных концепций, имеющих прямое отношение к ООП (инкапсуляция, наследование, полиморфизм, композиция), также включала в себя SOLID-принципы и паттерны проектирования",
     "repoLink": "https://github.com/CalledByThe4ire/oop-in-javascript"

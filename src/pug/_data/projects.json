@@ -24,6 +24,22 @@
     "repoLink": "https://github.com/CalledByThe4ire/project-lvl1-s412"
   },
   {
+    "type": "inner",
+    "title": "Conway's Game of Life & Painter",
+    "lead": "JS-Приложение",
+    "text":
+      "Реализовал несколько проектов (<a class='list__link' href='https://calledbythe4ire.github.io/gol/' target='_blank'>Conway's Game of Life</a> и&nbsp;<a class='list__link' href='https://calledbythe4ire.github.io/painter/' target='_blank'>Painter</a>), используя объектно-ориентированную парадигму программирования, в рамках онлайн-курса от <a class='list__link' href='https://codedojo.ru/' target='_blank'>CodeDojo</a>: <a class='list__link' href='https://codedojo.ru/online-courses/javascript-oop-0/' target='_blank'>Объектно-ориентированное программирование в Javascript</a>. Программа курса, помимо основных концепций, имеющих прямое отношение к ООП (инкапсуляция, наследование, полиморфизм, композиция), также включала в себя SOLID-принципы и паттерны проектирования",
+    "repoLink": "https://github.com/CalledByThe4ire/oop-in-javascript"
+  },
+  {
+    "type": "inner",
+    "title": "Игры разума",
+    "lead": "NodeJS-Приложение",
+    "text":
+      "Проект от <a class='list__link' href='https://ru.hexlet.io/professions/frontend' target='_blank'>hexlet</a> в рамках прохождения онлайн-курса «Фронтенд JS-программист».<br> Представляет собой <a class='list__link' href='https://www.npmjs.com/package/cbt4-brain-games' target='_blank'>npm-пакет</a> в виде набора мини-игр, запускаемых из консоли.",
+    "repoLink": "https://github.com/CalledByThe4ire/project-lvl1-s412"
+  },
+  {
     "title": "Sedona",
     "lead": "Веб-сайт",
     "text":
@@ -41,27 +57,11 @@
   },
   {
     "type": "inner",
-    "title": "Игры разума",
-    "lead": "NodeJS-Приложение",
-    "text":
-      "Проект от <a class='list__link' href='https://ru.hexlet.io/professions/frontend' target='_blank'>hexlet</a> в рамках прохождения онлайн-курса «Фронтенд JS-программист».<br> Представляет собой <a class='list__link' href='https://www.npmjs.com/package/cbt4-brain-games' target='_blank'>npm-пакет</a> в виде набора мини-игр, запускаемых из консоли.",
-    "repoLink": "https://github.com/CalledByThe4ire/project-lvl1-s412"
-  },
-  {
-    "type": "inner",
     "title": "Код и&nbsp;Магия",
     "lead": "Приложение",
     "text":
       "В&nbsp;рамках проекта я решил следующие задачи:<br>–&nbsp;написал функцию для&nbsp;вывода и&nbsp;отрисовки сообщений для&nbsp;игры посредством HTML5 Canvas API;<br>–&nbsp;написал валидацию формы отправки отзыва, с&nbsp;сохранением имени пользователя и&nbsp;оценки в&nbsp;cookies;<br>–&nbsp;написал функцию, реализующую AJAX-запрос к&nbsp;серверу для&nbsp;получения данных;<br>–&nbsp;на&nbsp;основе полученных данных написал модуль, генерирующий HTML-код списка отзывов на&nbsp;основе подготовленного шаблона и&nbsp;добавляющий этот код на&nbsp;страницу;<br>–&nbsp;для&nbsp;списка отзывов написал фильтрацию с&nbsp;постраничным выводом, последний примененный фильтр сохраняется в&nbsp;localStorage;<br>–&nbsp;написал функцию-конструктор для&nbsp;создания объекта галереи, отвечающего за&nbsp;показ фотографий, с&nbsp;использованием объекта для&nbsp;работы с&nbsp;адресной строкой;<br>–&nbsp;в&nbsp;блоке с&nbsp;игрой реализовал эффект параллакса.<br>Проект является дипломной работой <a class='list__link' href='https://htmlacademy.ru/intensive/javascript' target='_blank'>интенсива по&nbsp;javascript</a> от&nbsp;<a class='list__link' href='https://htmlacademy.ru/' target='_blank'>htmlacademy</a>:<br>весь код написан на&nbsp;чистом&nbsp;js, без&nbsp;использования вспомогательных библиотек;<br>помимо синтаксических особенностей языка, на&nbsp;интенсиве рассматривались такие темы, как использование модульного подхода в&nbsp;разработке, введение в&nbsp;компонентный подход (разделение поведения и&nbsp;состояния DOM-компонент, работа с&nbsp;типизированными объектами (классами) ), объектно-ориентированное программирование.<br>По итогам успешной защиты проекта (100% выполненных заданий) получил <a class='list__link' href='_projects/CodeAndMagick/sertificate.jpg' target='_blank'>сертификат</a>.",
     "repoLink": "https://github.com/CalledByThe4ire/17243-code-and-magick"
-  },
-  {
-    "type": "inner",
-    "title": "Conway's Game of Life & Painter",
-    "lead": "JS-Приложение",
-    "text":
-      "Реализовал несколько проектов, используя объектно-ориентированную парадигму программирования, в рамках онлайн-курса от <a class='list__link' href='https://codedojo.ru/' target='_blank'>CodeDojo</a>: <a class='list__link' href='https://codedojo.ru/online-courses/javascript-oop-0/' target='_blank'>Объектно-ориентированное программирование в Javascript</a>. Программа курса, помимо основных концепций, имеющих прямое отношение к ООП (инкапсуляция, наследование, полиморфизм, композиция), также включала в себя SOLID-принципы и паттерны проектирования",
-    "repoLink": "https://github.com/CalledByThe4ire/oop-in-javascript"
   },
   {
     "title": "Mishka",

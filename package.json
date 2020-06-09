@@ -9,6 +9,7 @@
     "url": "git+https://github.com/CalledByThe4ire/AboutMe.git"
   },
   "devDependencies": {
+    "airbnb-standard": "^1.0.0",
     "autoprefixer": "9.3.1",
     "bemto.pug": "2.1.0",
     "browser-sync": "2.26.3",
